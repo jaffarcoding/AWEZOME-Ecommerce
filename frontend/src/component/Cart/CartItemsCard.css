@@ -1,0 +1,51 @@
+.carditemscard{
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.carditemscard > img{
+    width: 5vmax;
+}
+.carditemscard > div{
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+}
+.carditemscard > div > a{
+    font: 300 0.9vmax cursive;
+    color: rgba(24, 24, 24, 0.815);
+    text-decoration: none;
+}
+.carditemscard > div > span{
+    font: 300 0.9vmax "Roboto";
+    color: rgba(24, 24, 24, 0.815);
+}
+.carditemscard > div > p{
+    color: tomato;
+    font: 100 0.8vmax "Roboto";
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .carditemscard{
+        padding: 3vmax;
+        height: 25vmax;
+    }
+    .carditemscard > img{
+        width: 10vmax;
+    }
+    .carditemscard > div{
+        margin: 1vmax 2vmax;
+    }
+    .carditemscard > div > a{
+        font: 300 2vmax cursive;
+    }
+    .carditemscard > div > span{
+        font: 300 1.9vmax "Roboto";
+    }
+    .carditemscard > div > p{
+        font: 100 1.8vmax "Roboto";
+    }
+}
